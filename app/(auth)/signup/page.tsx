@@ -102,7 +102,7 @@ export default function DoctorSignUp() {
     <div className="container mx-auto p-4 mt-8">
       <Card className="w-full max-w-2xl mx-auto">
         <CardHeader>
-          <CardTitle>Patient Sign Up</CardTitle>
+          <CardTitle>Doctor Sign Up</CardTitle>
           <CardDescription>
             Create your patient account to get started
           </CardDescription>

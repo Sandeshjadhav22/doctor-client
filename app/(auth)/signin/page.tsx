@@ -77,7 +77,7 @@ export default function DoctorSignIn() {
     <div className="container mx-auto p-4 mt-52">
       <Card className="w-full max-w-md mx-auto">
         <CardHeader>
-          <CardTitle>Patient Sign In</CardTitle>
+          <CardTitle>Doctor Sign In</CardTitle>
           <CardDescription>
             Welcome back! Please sign in to your account
           </CardDescription>
