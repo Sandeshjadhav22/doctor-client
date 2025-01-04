@@ -37,9 +37,7 @@ export function PrescriptionCard({ prescription }: { prescription: Prescription 
       <CardHeader>
         <CardTitle className="flex justify-between items-center">
           <span>{prescription.patient.name}</span>
-          <Badge variant={prescription.status === 'pending' ? 'secondary' : 'default'}>
-            {prescription.status}
-          </Badge>
+          
         </CardTitle>
       </CardHeader>
       <CardContent>

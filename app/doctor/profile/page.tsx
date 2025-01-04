@@ -30,18 +30,17 @@ export default function DoctorProfile() {
           headers: {
             "Content-Type": "application/json",
           },
-          body: JSON.stringify({ doctorId }), // Send doctorId in the request body
+          body: JSON.stringify({ doctorId }), 
         });
 
-        // Check if response is okay
+      
         if (!response.ok) {
-          const text = await response.text(); // Get the response as text for debugging
-          console.error("Error Response:", text); // Log the error response
+          const text = await response.text(); 
+          console.error("Error Response:", text); 
           setError("Failed to fetch doctor information.");
           return;
         }
 
-        // If response is okay, try parsing JSON
         const data = await response.json();
         setDoctorData({
           name: data.name || "N/A",

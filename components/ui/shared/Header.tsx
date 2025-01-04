@@ -69,15 +69,15 @@ export function Header() {
                 <DropdownMenuSeparator />
                 <DropdownMenuItem>Profile</DropdownMenuItem>
                 <DropdownMenuItem>Settings</DropdownMenuItem>
-                <DropdownMenuItem onClick={signOut}>Sign out</DropdownMenuItem>
+                {/* <DropdownMenuItem onClick={signOut}>Sign out</DropdownMenuItem> */}
               </DropdownMenuContent>
             </DropdownMenu>
           ) : (
             <>
-              <Button variant="outline" onClick={signIn}>Sign In</Button>
+              {/* <Button variant="outline" onClick={signIn}>Sign In</Button>
               <Link href="/patient/signup">
                 <Button>Sign Up</Button>
-              </Link>
+              </Link> */}
             </>
           )}
         </div>

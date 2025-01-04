@@ -34,8 +34,8 @@ export default function PrescriptionsPage() {
 
   useEffect(() => {
     const fetchPrescriptions = async () => {
-      // const doctorId = localStorage.getItem('doctorId');
-      const doctorId = "67782b17b5458e80c5b8bbd2"
+      const doctorId = localStorage.getItem('doctorId');
+      // const doctorId = "67782b17b5458e80c5b8bbd2"
       
       try {
         const response = await fetch(`http://localhost:8080/api/doctor/consultations/${doctorId}`);
